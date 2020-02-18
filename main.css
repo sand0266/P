@@ -1,0 +1,169 @@
+.navbar{
+  background-color: darkgrey;
+}
+.nav-item{
+  margin-left: 2rem;
+    align-items: center;
+}
+.nav-item{
+  font-size: 1.3rem;
+}
+.nav-item:hover{
+  text-decoration: underline;
+}
+
+.header{
+  margin-top:4.9rem;
+}
+
+.header-section{
+  background: #FF1300 ;
+}
+
+img {
+  border-radius: 40%;
+} 
+
+.text-header{
+  margin-left: -7rem;
+}
+
+.section-myskills{
+  width:80%;
+  margin:0 auto;
+}
+
+.section-skills{
+  margin-top: 4rem;
+}
+
+.fab{
+  display: inline-block;
+  border-radius: 50%;
+  padding:1.5rem 1.7rem;
+  color:#FFf;
+  width:95%;
+  height:9rem;
+  font-size: 6.5rem;
+  background: #FF4E40 ;
+}
+.fas{
+  display: inline-block;
+  border-radius: 50%;
+  padding:1.2rem 1.2rem;
+  color:#FFf;
+  width:95%;
+  height:9rem;
+  font-size: 5rem;
+  background: #FF4E40 ;
+}
+.course-html6{
+  margin-top:5rem;
+}
+
+footer{
+  margin-top:4rem;
+
+}
+
+.footer-background{
+  background: #FF4E40;
+}
+
+.footer-facebook{
+  display: inline-block;
+  border-radius: 50%;
+  padding:1rem 1.9rem;
+  color:#FF4E40;
+  width:90%;
+  height:5rem;
+  font-size: 3rem;
+  background: #fff  ;
+}
+.footer-linkedin{
+  display: inline-block;
+  border-radius: 50%;
+  padding:1rem 1.6rem;
+  color:#FF4E40;
+  width:90%;
+  height:5rem;
+  font-size: 3rem;
+  background: #fff   ;
+}
+.footer-github{
+  display: inline-block;
+  border-radius: 50%;
+  padding:1rem 1.5rem;
+  color:#FF4E40;
+  width:90%;
+  height:5rem;
+  font-size: 3rem;
+  background: #fff   ;
+}
+
+@media only screen and (max-width:576px)
+{
+  body{
+    margin-top: -1rem;
+  }
+  h1{
+    font-size: 5rem !important;
+    float: right;
+    margin-left: 4rem !important;
+    text-align: right;
+  }
+  .fab{
+    display: inline-block;
+    border-radius: 50%;
+    padding:1.5rem 1.7rem;
+    color:#FFf;
+    width:38%;
+    height:9rem;
+    font-size: 6.5rem;
+    background: #FF4E40 ;
+    margin-left: 7rem;
+  }
+  .section-myskills{
+    width:100%;
+  }
+  p{
+    margin-top: 1.5rem;
+  }
+  .footer-facebook{
+    display: inline-block;
+    border-radius: 50%;
+    padding:1rem 1.9rem;
+    color:#FF4E40;
+    width:50%;
+    height:5rem;
+    font-size: 3rem;
+    background: #fff  ;
+    margin-left: 5rem;
+  }
+  .footer-linkedin{
+    display: inline-block;
+    border-radius: 50%;
+    padding:1rem 1.6rem;
+    color:#FF4E40;
+    width:50%;
+    height:5rem;
+    font-size: 3rem;
+    background: #fff   ;
+    margin-left: 5rem;
+  }
+  .footer-github{
+    display: inline-block;
+    border-radius: 50%;
+    padding:1rem 1.5rem;
+    color:#FF4E40;
+    width:50%;
+    height:5rem;
+    font-size: 3rem;
+    background: #fff   ;
+    margin-left: 5rem;
+    margin-top: -6rem;
+  }
+
+
+
+}
